@@ -8,5 +8,5 @@ parcel src/index.html
 # build 命令
 
 ```
-yarn build
+parcel build src/index.html --no-minify --public-url ./
 ```
